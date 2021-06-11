@@ -1,0 +1,24 @@
+h1{
+    color: red;
+}
+.todo-container{
+    width: 350px;
+    /*position: absolute;*/
+    left: 50%;
+    right: 50%;
+    transform :(-50%, -50%);
+    margin: auto;
+    margin-top: 30px;
+   
+}
+ul li{
+    list-style: none;
+}
+.todo-container input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+}
+ul li i{
+    cursor: pointer;
+}
